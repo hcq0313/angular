@@ -1,0 +1,16 @@
+<ng-content select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr1,let i=index;" >
+        <input type="checkbox" (click)="change(i)">
+        {{item}}
+        <button (click)="del(i)">删除</button>
+  </li>
+</ul>
+<ng-content select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr2,let i=index">
+         <input  checked="checked" type="checkbox" (click)="change1(i)">
+         {{item}}
+         <button (click)="del1(i)">删除</button>
+ </li>
+</ul>
