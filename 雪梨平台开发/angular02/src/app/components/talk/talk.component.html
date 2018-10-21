@@ -1,0 +1,13 @@
+<div id="div1">
+  <img src="assets/images/text.png" id="img1">
+</div>
+<div id="div2">
+  <ul>
+    <li><a [routerLink]="['./dongtai']"><img src="assets/images/消息中心.png">&nbsp;动态</a></li>
+    <li><a [routerLink]="['./wodezan']"><img src="assets/images/赞.png">&nbsp;我的赞</a></li>
+    <li><a [routerLink]="['./shoucang']"><img src="assets/images/收藏.png">&nbsp;我的收藏</a></li>
+  </ul>
+  <div id="div3">
+    <router-outlet></router-outlet>
+  </div>
+</div>

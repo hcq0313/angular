@@ -1,0 +1,21 @@
+#imgword{
+    width: 400px;
+    height: 230px;
+   
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+#imgword p{
+    color: grey;
+    font-size: 18px;
+
+}
+#img{
+    margin: auto;
+    display: block;
+}
+#word{
+    margin-left: 55px;
+    display: block;
+}

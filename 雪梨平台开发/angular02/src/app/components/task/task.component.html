@@ -1,0 +1,14 @@
+<div id="div1">
+  <div id="up">
+    <ul>
+      <li><a [routerLink]="['./weitijiao']"><img src="assets/images/p6.png">&nbsp;未提交</a></li>
+      <li><a [routerLink]="['./yiwancheng']"><img src="assets/images/对.png">&nbsp;已完成</a></li>
+      <li><a [routerLink]="['./yiwanjie']"><img src="assets/images/密码.png">&nbsp;已完结</a></li>
+      <img id="img" src="assets/images/1.png">
+    </ul>
+    <hr id="hr">
+  </div>
+  <div id="down">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 1100px;
+    display: block;
+    margin:auto;
+
+}
+#left{
+    width: 800px;
+    height: 150px;
+
+}
+#img1{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius:50%
+}
+#img2{
+    width: 130px;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+#word{
+    float: left;
+    width: 550px;
+    height: 110px;
+    margin-left: 15px;
+}
+#word2{
+    height: 40px;
+    width: 800px;
+    float: left;
+}
+#list{
+    margin-top: 20px;
+}
+#img2div{
+    width: 140px;
+    height: 100px;
+    border: 1px solid lightgray;
+    float: left;
+    margin-left: 8px;
+}
+#coursename{
+    font-size: 16px;
+    font-weight: bold;
+}
+#introduction{
+    color: grey;
+    font-size: 15px;
+}
+#coursename{
+    color: black;
+}
+#span1,#span2{
+    color: grey;
+    font-size: 16px;
+    float: left;
+}
+#span1{
+    margin-left: 60px;
+}
+#span2{
+    margin-left: 400px;
+}
+#hr{
+    border: 0.5px solid lightgrey;
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}

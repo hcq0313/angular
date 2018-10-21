@@ -1,0 +1,49 @@
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}
+.container li{
+    /* background-color:red; */
+    float: left;
+    width: 230px;   
+    margin-right:20px;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    height: 240px;
+
+
+}
+#shenqing{
+    background-color:orange;
+    width: 50px;
+    margin-left: 160px;
+    margin-top: -20px;
+
+    float: left;
+
+}
+#img{
+    margin: auto;
+    display: block;
+    /* margin-left: 10px; */
+}
+#sum{
+    margin-left: 10px;
+    margin-top: 40px;
+    color: grey;
+    height: 20px;
+    width: 150px;
+}
+#cn{
+    margin-left: 20px;
+    color: black;
+    
+    
+}
+.container ul li a{
+    text-decoration: none;
+}
+#sum span{
+    color: grey;
+    
+}

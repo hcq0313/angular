@@ -1,0 +1,33 @@
+<div id="downn">
+  <div id="left">
+    <div id="img">
+      <a><img src="assets/images/n.png"></a>
+    </div>
+  
+    <div>
+      <p id="p1">8-侯存巧</p>
+      <div id="fensi">
+        <p class="ps" id="num1">0</p>
+        <p class="ps" >粉丝</p>
+      </div>
+      <div id="gaunzhu">
+        <p class="ps" id="num2">1</p>
+        <p class="ps">关注</p>
+      </div>
+    </div>
+  
+    <div class="daohang">
+      <ul>
+        <li><a [routerLink]="['./task']"><img src="assets/images/p1.png">&nbsp;任务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+        <li><a [routerLink]="['./synchro']"><img src="assets/images/p3.png">&nbsp;同步课&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+        <li><a [routerLink]="['./kecheng']"><img src="assets/images/p4.png">&nbsp;课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+        <li><a [routerLink]="['./talk']"><img src="assets/images/消息中心.png">&nbsp;且说&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+        <li><a [routerLink]="['./notice']"><img src="assets/images/声音.png">&nbsp;通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- <img src="assets/images/banner_01.gif" alt=""> -->
+
+<div id="right">
+    <router-outlet></router-outlet>
+</div>

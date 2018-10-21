@@ -1,0 +1,70 @@
+#downn{
+    margin: auto;
+    display: block;
+    float: left;
+    width: 1400px;
+    height: 800px;;
+}
+#left{
+    width: 200px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
+}
+
+#p1{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    width: 200px;
+}
+.ps{
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+}
+#num1{
+    font-size: 22px;
+}
+#num2{
+    font-size: 22px;
+}
+#fensi,#gaunzhu{
+    width: 100px;
+    float: left;
+    height: 35px;
+}
+
+.daohang ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 30px; */
+    color: #000;
+    
+    cursor: pointer;
+}
+.daohang{
+    margin-left: 10px; 
+    margin-top: 80px; 
+}
+.daohang ul li{
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 155px;
+}
+/* .daohang ul li a{
+    background-color: yellow; 
+} */
+.daohang ul li:hover{
+    background-color:orange;
+}
+#right{
+    width: 900px;
+    height: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}

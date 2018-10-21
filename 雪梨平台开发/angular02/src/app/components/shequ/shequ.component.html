@@ -1,0 +1,35 @@
+<div id="container">
+  <div id="left">
+    <ul>
+      <li *ngFor="let course of courses" id="list">
+        <a [routerLink]="['/shequ',course.id]">
+        <img src="assets/images/m.png" id="img1">
+          <div>
+            <div>
+              <div id="img2div"><img src="{{course.images}}" id="img2"></div>
+              
+              <div id="word">
+                <span id="coursename">{{course.courseName}}</span><br><br>
+                <span id="introduction">{{course.introduction}}</span>
+              </div>
+            </div>
+            <div id="word2">
+              <span id="span1">{{course.time}}</span>
+              <span id="span2">阅读{{course.read}}&nbsp;&nbsp;|&nbsp;&nbsp;评论{{course.commit}}</span>
+            </div>
+            <hr id="hr">
+          </div>
+          
+        </a>
+        
+      </li>
+    </ul>
+  </div>
+  <div id="right"></div>
+</div>
+
+
+
+
+
+

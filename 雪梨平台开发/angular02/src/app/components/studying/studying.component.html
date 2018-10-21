@@ -1,0 +1,17 @@
+<div class="container">
+    <ul>
+      <li *ngFor="let course of courses" id="cname">
+        <a [routerLink]="['/course',course.id]" id="neirong">
+          <img src="{{course.img}} " id="img">
+          <p id="cn">{{course.coursename}}</p>
+          <div id="introduction">
+            {{course.introduction}}
+          </div>
+          <div id="sum">
+            课时：<span>{{course.keshi}}</span>
+            人数：<span>{{course.person}}</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>

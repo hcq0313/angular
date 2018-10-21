@@ -1,0 +1,32 @@
+#div{
+    width: 800px;
+    /* border: 1px solid #F5F5F5; */
+    border: 1px solid lightgray;
+}
+#div1 ul li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    
+}
+#div1 ul li{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+#img{
+    /* float: right; */
+    margin-left: 425px;
+    margin-top: 20px;
+}
+#hr{
+    margin: 10px auto;
+    width: 750px;
+    border: 1px solid lightgray;
+}
+#down{
+    width: 760px;
+}

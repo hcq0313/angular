@@ -1,0 +1,31 @@
+#div{
+    width: 760px;
+    /* border: 1px solid #F5F5F5; */
+    height: 880px;
+}
+#list{
+    width: 760px;
+    height: 130px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+#hr{
+    width: 720px;
+    border: 0.8px solid #F5F5F5;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#div2,#hr,#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+
+#span1{
+    font-size: 18px;
+    font-weight: bold;
+}
+#span2,#span3{
+    margin-left: 15px;
+}
