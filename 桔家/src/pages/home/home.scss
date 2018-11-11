@@ -1,0 +1,125 @@
+page-home {
+    ion-segment-button{
+        ion-icon{
+            color: black;
+            font-size: 15px!important;
+            
+        }
+        
+    }
+    .subtitle{
+        letter-spacing: 5px;
+        #pp{
+            font-size: 22px;
+            color:lightgrey;
+            display: block;
+            margin-top: -45px;
+        }
+        #pp1{
+            margin-top: -5px;
+        }
+    }
+    ion-segment{
+        margin-top: -10px;
+    }
+    .goods{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 0 5px 3%;
+            list-style: none;
+            span{
+                display: block;
+                width: 24px;
+                height: 24px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+    #jiajuimg{
+        margin-top: 5px;
+        img{
+            float: left;
+            width: 30%;
+            height: auto;
+            margin-left: 9px;
+        }
+        margin-bottom: 10px;
+        
+    }
+    #sub{
+        margin-top: 125px;
+        letter-spacing: 5px;
+        margin-bottom: -10px;
+        #ppp{
+            font-size: 22px;
+            color:lightgrey;
+            display: block;
+            margin-top: -45px;
+        }
+        #ppp1{
+            margin-top: -5px;
+        }
+    }
+
+    .goods1{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 6px 0 5px 3%;
+            list-style: none;
+            span{
+                display: block;
+                width: 24px;
+                height: 24px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+page-a {
+    ion-content{
+        background: url(../assets/imgs/bg.png);
+        background-size: cover;
+        .box{
+            ion-item{
+                background: transparent;
+                ion-input{
+                    color: white;
+                }
+               
+            }
+            p{
+                color: white;
+                margin-top: 25px;
+                text-align: center;
+            }
+        }
+
+    }
+}

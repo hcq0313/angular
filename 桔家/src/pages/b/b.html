@@ -1,0 +1,59 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>b</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<!-- 去掉边框就会有边距 -->
+<ion-content padding>
+
+    <!-- 设置下拉刷新 -->
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+
+    <ion-scroll scrollX="true" zoom="true">
+        <span>好友</span>
+        <span>好友</span>
+        <span>好友</span>
+        <span>好友</span>
+        <span>好友</span>
+        <span>好友</span>
+    </ion-scroll>
+    
+    <br>
+
+  <ion-slides class="sli" (slidechange)=change() autoplay="1400" loop="true" pager="true">
+    <ion-slide>
+      <h1>Slide 1</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 2</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 3</h1>
+    </ion-slide>
+  </ion-slides>
+
+  <a></a>
+  <br>
+
+  <!-- 最下面的刷新 -->
+  <ion-list>
+    <ion-item *ngFor="let item of items;" detail push>
+      {{item}}
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content>
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+  
+  
+</ion-content>
